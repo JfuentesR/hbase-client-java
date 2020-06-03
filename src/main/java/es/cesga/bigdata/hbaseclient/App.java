@@ -24,7 +24,7 @@ public class App {
         // Option 2: Configure the hbase connection properties here:
         // - Zookeeper addresses
         //conf.set("hbase.zookeeper.quorum","10.112.13.19,10.112.13.18,10.112.13.17");
-        conf.set("hbase.zookeeper.quorum","10.112.14.18,10.112.14.19");
+        conf.set("hbase.zookeeper.quorum","10.112.14.18,10.112.14.19,10.121.13.219");
         // - Non-default znode parent (e.g. HDP with security disabled)
         //conf.set("zookeeper.znode.parent", "/hbase-unsecure");
 
